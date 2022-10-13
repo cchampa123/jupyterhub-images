@@ -1,0 +1,2 @@
+FROM jupyterhub/k8s-hub:2.0.0
+RUN python3 -m pip install jhub_remote_user_authenticator
